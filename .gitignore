@@ -1,0 +1,55 @@
+# Entornos Virtuales de Python
+venv/
+env/
+ENV/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencias de Node.js (Frontend)
+node_modules/
+dist/
+build/
+.npm/
+
+# Entorno local y variables secretas
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de base de datos SQLite (si usas localmente fuera de docker)
+*.sqlite3
+db.sqlite3
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas de editores e IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos compilados o distribuciones del Frontend
+frontend/dist/
+frontend/build/
+
+# Archivos temporales de Docker
+.docker/
+docker-compose.override.yml
